@@ -137,16 +137,11 @@ async def not_joined(client: Bot, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ¹",
+                "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ",
                 url = client.invitelink),
             InlineKeyboardButton(
-                "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ²",
-                url = client.invitelink3)
-        ],
-        [
-            InlineKeyboardButton(
-                "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ³",
-                url = client.invitelink2),
+                "ᴊᴏɪɴ ɢʀᴏᴜᴘ",
+                url = client.invitelink2)
         ]
     ]
     try:
